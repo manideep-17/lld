@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.lld.practice.questions.LibraryManagementSystemTest" time="0.078" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/manideepreddyaliminati/Documents/coding/lld/target/test-classes:/Users/manideepreddyaliminati/Documents/coding/lld/target/classes:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar:/Users/manideepreddyaliminati/.m2/repository/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar:/Users/manideepreddyaliminati/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar:/Users/manideepreddyaliminati/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/manideepreddyaliminati/.m2/repository/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/manideepreddyaliminati/Documents/coding/lld/target/surefire/surefirebooter-20250610233958202_3.jar /Users/manideepreddyaliminati/Documents/coding/lld/target/surefire 2025-06-10T23-39-58_036-jvmRun1 surefire-20250610233958202_1tmp surefire_0-20250610233958202_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/manideepreddyaliminati/Documents/coding/lld/target/test-classes:/Users/manideepreddyaliminati/Documents/coding/lld/target/classes:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar:/Users/manideepreddyaliminati/.m2/repository/net/bytebuddy/byte-buddy/1.14.6/byte-buddy-1.14.6.jar:/Users/manideepreddyaliminati/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.6/byte-buddy-agent-1.14.6.jar:/Users/manideepreddyaliminati/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/manideepreddyaliminati/.m2/repository/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar:/Users/manideepreddyaliminati/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/manideepreddyaliminati"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/manideepreddyaliminati/Documents/coding/lld"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/manideepreddyaliminati/Documents/coding/lld/target/surefire/surefirebooter-20250610233958202_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="manideepreddyaliminati"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/manideepreddyaliminati/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/2q/fhw7kqw14_b2mn6r49ct_0rr0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/manideepreddyaliminati/Documents/coding/lld"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/manideepreddyaliminati/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testBorrowUnavailableBook" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.041">
+    <system-out><![CDATA[Book borrowed successfully: Effective Java
+Book is not available
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchBooks" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.006"/>
+  <testcase name="testBorrowBooks" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.001">
+    <system-out><![CDATA[Book borrowed successfully: Effective Java
+]]></system-out>
+  </testcase>
+  <testcase name="testAddBooks" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.001"/>
+  <testcase name="testReturnNotBorrowedBook" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.0">
+    <system-out><![CDATA[No active loan found for this book and user
+]]></system-out>
+  </testcase>
+  <testcase name="testLibrarySystem" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.001"/>
+  <testcase name="testFineCalculation" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.002"/>
+  <testcase name="testNoFineForOnTimeReturn" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.0"/>
+  <testcase name="testStudentBorrowingLimit" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.003">
+    <system-out><![CDATA[Book borrowed successfully: Book 0
+Book borrowed successfully: Book 1
+Book borrowed successfully: Book 2
+Book borrowed successfully: Book 3
+Book borrowed successfully: Book 4
+User has reached maximum book limit
+]]></system-out>
+  </testcase>
+  <testcase name="testBookAvailabilityTracking" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.002">
+    <system-out><![CDATA[Book borrowed successfully: Effective Java
+Book borrowed successfully: Effective Java
+Book borrowed successfully: Effective Java
+Book returned successfully: Effective Java
+]]></system-out>
+  </testcase>
+  <testcase name="testBorrowNonExistentBook" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.0">
+    <system-out><![CDATA[Book not found in library
+]]></system-out>
+  </testcase>
+  <testcase name="testConcurrentBorrowing" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.001">
+    <system-out><![CDATA[Book borrowed successfully: Effective Java
+Book is not available
+]]></system-out>
+  </testcase>
+  <testcase name="testReturnBooks" classname="com.lld.practice.questions.LibraryManagementSystemTest" time="0.001">
+    <system-out><![CDATA[Book borrowed successfully: Effective Java
+Book returned successfully: Effective Java
+]]></system-out>
+  </testcase>
+</testsuite>
